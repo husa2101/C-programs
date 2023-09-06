@@ -1,0 +1,3 @@
+C:/Users/shahr/OneDrive/Desktop/deck_of_card/cmake-build-debug/CMakeFiles/deck_of_card.dir
+C:/Users/shahr/OneDrive/Desktop/deck_of_card/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/shahr/OneDrive/Desktop/deck_of_card/cmake-build-debug/CMakeFiles/rebuild_cache.dir

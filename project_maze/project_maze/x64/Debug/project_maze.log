@@ -1,0 +1,6 @@
+﻿  Source.cpp
+  maze.cpp
+C:\Users\shahr\source\repos\project_maze\project_maze\maze.cpp(35,25): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\shahr\source\repos\project_maze\project_maze\maze.cpp(115,84): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
+  project_maze.vcxproj -> C:\Users\shahr\source\repos\project_maze\x64\Debug\project_maze.exe
