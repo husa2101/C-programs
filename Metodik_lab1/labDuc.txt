@@ -1,0 +1,22 @@
+// the constructor that initialize a member data.
+int_buffer::int_buffer(size_t size) {
+    this->valuePtr =  new int[size];
+    this->bufferSize = size;
+}
+
+
+// the end() and begin() function that invokes.
+int *int_buffer::begin() {
+    return valuePtr;
+}
+
+int *int_buffer::end() {
+    return valuePtr + bufferSize;
+}
+
+// and no for each loop can not uses to initiate the *valueptr;
+    for (auto it: buf) {
+        count += 1;
+        it = count;
+        std::cout << it << " ";
+    }
