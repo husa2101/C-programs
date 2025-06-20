@@ -1,7 +1,17 @@
 #include "int_buffer.h"
 #include "int_sorted.h"
 #include<array>
-
+/**
+ * @brief The main objective of this project is to learn the fundamentals of C++ programming.
+ *
+ * This includes:
+ * - Using default constructors, parameterized constructors, copy constructors,
+ *   move constructors, assignment operators, and destructors.
+ * - Understanding and handling dynamic memory using pointers.
+ * - Demonstrating object copying, moving, and resource management.
+ *
+ * The project also introduces operator overloading and how to work with custom containers.
+ */
 std::ostream & operator << (std::ostream& out, int_buffer bff);
 std::ostream & operator << (std::ostream & out, int_sorted sort);
 
