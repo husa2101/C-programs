@@ -1,10 +1,10 @@
 #include "maze.h"
 /*
-# skrivet av: Hussein Salehi
+# skrivet av: Adam Salehi
 # skapat datum: 2022-05-30
-# Senaste ändring: 2022-09-17
+# Senaste Ã¤ndring: 2022-09-17
 # Kurs: objektbaserad Programering
-# handledare: Jimmy Ålander
+# handledare: Jimmy Ã…lander
 # Betyg: E
 */
 
@@ -44,27 +44,27 @@ std::vector<MyMaze::node>MyMaze::Unvisited(int CoordinateR, int CoordinateC) {
 	std::vector<MyMaze::node> hasUnvisitedNeighbor;
 
 	// ROWS
-	if (CoordinateR > 0 && CoordinateR + 2 < MyvectorUnvisited.size() - 1) {                  // två villkor for att hålla oss inom ramen
-		if (!MyvectorUnvisited[CoordinateR + 2][CoordinateC].visited) {                       // om vår granne till söderut inte är besökt 
-			hasUnvisitedNeighbor.push_back(MyvectorUnvisited[CoordinateR + 2][CoordinateC]);      // då tar vi det 
+	if (CoordinateR > 0 && CoordinateR + 2 < MyvectorUnvisited.size() - 1) {                  // tvÃ¥ villkor for att hÃ¥lla oss inom ramen
+		if (!MyvectorUnvisited[CoordinateR + 2][CoordinateC].visited) {                       // om vÃ¥r granne till sÃ¶derut inte Ã¤r besÃ¶kt 
+			hasUnvisitedNeighbor.push_back(MyvectorUnvisited[CoordinateR + 2][CoordinateC]);      // dÃ¥ tar vi det 
 
 		}
 	}
 	if (CoordinateR < MyvectorUnvisited.size() - 1 && CoordinateR - 2  > 0) {                  //
-		if (!MyvectorUnvisited[CoordinateR - 2][CoordinateC].visited) {                        // om granne till norrut är inte besökt 
+		if (!MyvectorUnvisited[CoordinateR - 2][CoordinateC].visited) {                        // om granne till norrut Ã¤r inte besÃ¶kt 
 			hasUnvisitedNeighbor.push_back(MyvectorUnvisited[CoordinateR - 2][CoordinateC]);   // 
 		}
 	}
 
 	// COLUMS
 	if (CoordinateC > 0 && CoordinateC + 2 < MyvectorUnvisited.size() - 1) {                    //
-		if (!MyvectorUnvisited[CoordinateR][CoordinateC + 2].visited) {                        // om granne till öst är inte besökt 
+		if (!MyvectorUnvisited[CoordinateR][CoordinateC + 2].visited) {                        // om granne till Ã¶st Ã¤r inte besÃ¶kt 
 			hasUnvisitedNeighbor.push_back(MyvectorUnvisited[CoordinateR][CoordinateC + 2]);  //
 		}
 	}
 
 	if (CoordinateC < MyvectorUnvisited.size() - 1 && CoordinateC - 2> 0) {                    //
-		if (!MyvectorUnvisited[CoordinateR][CoordinateC - 2].visited) {							// om granne till väst inte är besökt 
+		if (!MyvectorUnvisited[CoordinateR][CoordinateC - 2].visited) {							// om granne till vÃ¤st inte Ã¤r besÃ¶kt 
 			hasUnvisitedNeighbor.push_back(MyvectorUnvisited[CoordinateR][CoordinateC - 2]);    //
 		}
 	}
