@@ -1,5 +1,5 @@
 /**
-* berief: the objectiv of this program is to learn about how to handle streams and and read från a text file and how to handle the input.
+* berief: the objectiv of this program is to learn about how to handle streams and struct and read från a text file and how to handle the input.
 */
 
 
