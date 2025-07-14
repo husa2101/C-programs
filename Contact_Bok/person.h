@@ -60,7 +60,7 @@ void delete_user(const std::string &username, std::vector<PersonInfo> &container
 /**
  * @brief Analyzes user input to determine if it is numeric or alphabetic.
  * @param input The user input string to analyze.
- * @return Returns a string indicating the type or value of the input.
+ * @return Returns a struct string_type indicating the type or value of the input.
  */
 stringType input_analys(std::string input);
 stringType evaluate(const char &ch);
