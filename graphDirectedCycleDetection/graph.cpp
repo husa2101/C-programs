@@ -105,7 +105,7 @@ bool graph::dfs_util(int v, std::vector<bool> &visited, std::vector<bool>& rectr
         std::cout <<"curent vertex"
                     " " << v <<": "<< data[v] << std::endl;
         for(int i = 0; i < size; ++i) {
-            if(i == v) continue;
+            if(i == v) continue; // to avoid delf loop
             if(adjacencyMatrix[v][i] == 1 && !visited[i]) {
                 if(dfs_util(i, visited, rectrack)) {
                     return true;
@@ -152,4 +152,5 @@ bool graph::isCyclic() {
             }
             std::cout << "\n";
         }
+
     }*/
